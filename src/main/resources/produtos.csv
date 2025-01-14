@@ -1,0 +1,201 @@
+nome,descricao,preco,quantidadeestoque,categoria,imagemurl,codigobarras,status
+Smartphone XYZ,Smartphone de ultima geracao com camera de alta resolucao e bateria de longa duracao,2999.99,50,Eletronicos,https://exemplo.com/imagens/smartphone-xyz.jpg,9876543210987,DISPONIVEL
+Notebook Gamer,Notebook de alta performance para jogos e trabalho,4999.99,15,Eletronicos,https://exemplo.com/imagens/notebook-gamer.jpg,1234567890123,DISPONIVEL
+Fones de Ouvido Bluetooth,Fones de ouvido sem fio com cancelamento de ruído ativo e qualidade de som superior,799.99,120,Acessorios,https://exemplo.com/imagens/fones-bluetooth.jpg,1122334455667,DISPONIVEL
+Tablet ABC,Tablet leve e portatil com tela de alta resolucao e otimo desempenho,1999.99,30,Eletronicos,https://exemplo.com/imagens/tablet-abc.jpg,2233445566778,DISPONIVEL
+Camera Digital,Alta qualidade de imagem com recursos avancados de fotografia,1499.99,25,Eletronicos,https://exemplo.com/imagens/camera-digital.jpg,3344556677889,DISPONIVEL
+Smartwatch 2000,Relogio inteligente com monitoramento de atividades físicas e notificacoes,999.99,45,Acessorios,https://exemplo.com/imagens/smartwatch-2000.jpg,4455667788990,DISPONIVEL
+Mouse Gamer,Mouse ergonomico com alta precisao e iluminacao RGB,299.99,200,Acessorios,https://exemplo.com/imagens/mouse-gamer.jpg,5566778899001,DISPONIVEL
+Teclado Mecanico,Teclado mecanico com switches de alta durabilidade e iluminacao RGB,399.99,150,Acessorios,https://exemplo.com/imagens/teclado-mecanico.jpg,6677889900112,DISPONIVEL
+Caixa de Som Bluetooth,Som potente com conexao sem fio e bateria de longa duracao,249.99,80,Eletronicos,https://exemplo.com/imagens/caixa-som-bluetooth.jpg,7788990011223,DISPONIVEL
+HD Externo,Armazenamento portatil de alta capacidade com conexao USB 3.0,599.99,60,Armazenamento,https://exemplo.com/imagens/hd-externo.jpg,8899001122334,DISPONIVEL
+Impressora Multifuncional,Impressora com scanner e copiadora integrada,449.99,35,Eletronicos,https://exemplo.com/imagens/impressora-multifuncional.jpg,9900112233445,DISPONIVEL
+Monitor 4K,Monitor ultra HD com alta resolucao e cores vibrantes,1299.99,40,Eletronicos,https://exemplo.com/imagens/monitor-4k.jpg,1100223344556,DISPONIVEL
+Headset Gamer,Headset com microfone e som surround,349.99,95,Acessorios,https://exemplo.com/imagens/headset-gamer.jpg,2200334455667,DISPONIVEL
+Carregador Portatil,Power bank de alta capacidade para recarga rapida,199.99,75,Acessorios,https://exemplo.com/imagens/carregador-portatil.jpg,3300445566778,DISPONIVEL
+Projetor LED,Projetor portatil com alta definicao,899.99,20,Eletronicos,https://exemplo.com/imagens/projetor-led.jpg,4400556677889,DISPONIVEL
+Camera de Seguranca,Camera de vigilancia com visao noturna,599.99,50,Eletronicos,https://exemplo.com/imagens/camera-seguranca.jpg,5500667788990,DISPONIVEL
+Alto-Falante Inteligente,Alto-falante com assistente de voz integrado,299.99,65,Eletronicos,https://exemplo.com/imagens/alto-falante-inteligente.jpg,6600778899001,DISPONIVEL
+Drone,Drone com camera 4K e controle remoto,1499.99,10,Eletronicos,https://exemplo.com/imagens/drone.jpg,7700889900112,DISPONIVEL
+Lampada Inteligente,Lampada LED controlada por app,99.99,100,Iluminacao,https://exemplo.com/imagens/lampada-inteligente.jpg,8800990011223,DISPONIVEL
+Caixa de Ferramentas,Kit de ferramentas completo para reparos,299.99,30,Ferramentas,https://exemplo.com/imagens/caixa-ferramentas.jpg,9900112233445,DISPONIVEL
+Smartphone ABC,Smartphone com design elegante e desempenho avancado,2499.99,40,Eletronicos,https://exemplo.com/imagens/smartphone-abc.jpg,1100223344556,DISPONIVEL
+Console de Videogame,Console de última geracao com suporte a jogos em 4K,3999.99,25,Eletronicos,https://exemplo.com/imagens/console-videogame.jpg,2200334455667,DISPONIVEL
+Kindle,Leitor de e-books com tela antirreflexo,499.99,60,Eletronicos,https://exemplo.com/imagens/kindle.jpg,3300445566778,DISPONIVEL
+Termometro Digital,Termometro infravermelho para medicoes rapidas,199.99,80,Saúde,https://exemplo.com/imagens/termometro-digital.jpg,4400556677889,DISPONIVEL
+Aspirador Robot,Aspirador automatico com sensores de mapeamento,1399.99,15,Eletrodomesticos,https://exemplo.com/imagens/aspirador-robot.jpg,5500667788990,DISPONIVEL
+Relogio Classico,Relogio de pulso com design atemporal,299.99,100,Acessorios,https://exemplo.com/imagens/relogio-classico.jpg,6600778899001,DISPONIVEL
+Espelho Inteligente,Espelho com tela touch e conectividade Bluetooth,999.99,20,Eletronicos,https://exemplo.com/imagens/espelho-inteligente.jpg,7700889900112,DISPONIVEL
+Frigobar,Mini geladeira com design compacto,699.99,10,Eletrodomesticos,https://exemplo.com/imagens/frigobar.jpg,8800990011223,DISPONIVEL
+Capacete de Realidade Virtual,Experiência imersiva com sensor de movimento,1599.99,15,Eletronicos,https://exemplo.com/imagens/capacete-vr.jpg,9900112233445,DISPONIVEL
+Torradeira,Torradeira com varias configuracoes de tostagem,199.99,50,Eletrodomesticos,https://exemplo.com/imagens/torradeira.jpg,1100223344556,DISPONIVEL
+Churrasqueira Eletrica,Churrasqueira compacta para uso interno,399.99,20,Eletrodomesticos,https://exemplo.com/imagens/churrasqueira-eletrica.jpg,2200334455667,DISPONIVEL
+Purificador de agua,Dispositivo para purificacao de agua com filtro avancado,499.99,30,Eletrodomesticos,https://exemplo.com/imagens/purificador-agua.jpg,3300445566778,DISPONIVEL
+Secador de Cabelo,Secador potente com múltiplas configuracoes de calor,299.99,40,Beleza,https://exemplo.com/imagens/secador-cabelo.jpg,4400556677889,DISPONIVEL
+Maquina de Cafe,Prepare cafes deliciosos com esta maquina automatica,899.99,25,Eletrodomesticos,https://exemplo.com/imagens/maquina-cafe.jpg,5500667788990,DISPONIVEL
+Batedeira,Batedeira planetaria com varias velocidades,499.99,30,Eletrodomesticos,https://exemplo.com/imagens/batedeira.jpg,6600778899001,DISPONIVEL
+Fritadeira Sem oleo,Prepare alimentos mais saudaveis com esta fritadeira,599.99,20,Eletrodomesticos,https://exemplo.com/imagens/fritadeira-sem-oleo.jpg,7700889900112,DISPONIVEL
+Cafeteira Expresso,Prepare deliciosos cafes expressos com esta maquina automatica,499.99,40,Eletrodomesticos,https://exemplo.com/imagens/cafeteira-expresso.jpg,3300334455667,DISPONIVEL
+Maquina de Lavar Roupa,Lava roupas com diversos modos de lavagem e eficiência energetica,1499.99,20,Eletrodomesticos,https://exemplo.com/imagens/maquina-lavar-roupa.jpg,3300667788990,DISPONIVEL
+Geladeira Inox,Refrigerador de alta capacidade com design moderno em inox,2999.99,10,Eletrodomesticos,https://exemplo.com/imagens/geladeira-inox.jpg,3300991122334,DISPONIVEL
+Lava-Loucas,Economize tempo lavando loucas com esta lava-loucas automatica,1599.99,15,Eletrodomesticos,https://exemplo.com/imagens/lava-loucas.jpg,3300112233445,DISPONIVEL
+Micro-ondas,Micro-ondas com varias opcoes de programacao e descongelamento,499.99,25,Eletrodomesticos,https://exemplo.com/imagens/micro-ondas.jpg,3300223344556,DISPONIVEL
+Aspirador de Pó,Aspirador potente com filtro HEPA para uma limpeza eficiente,699.99,35,Eletrodomesticos,https://exemplo.com/imagens/aspirador-po.jpg,3300334455667,DISPONIVEL
+Ar-Condicionado Portatil,Climatize qualquer ambiente com este ar-condicionado portatil,1299.99,12,Eletrodomesticos,https://exemplo.com/imagens/ar-condicionado.jpg,3300445566778,DISPONIVEL
+Ventilador de Teto,Ventilador de teto com controle remoto e varias velocidades,349.99,50,Eletrodomesticos,https://exemplo.com/imagens/ventilador-teto.jpg,3300556677889,DISPONIVEL
+Maquina de Costura,Costure com precisao e facilidade com esta maquina de costura,799.99,20,Eletrodomesticos,https://exemplo.com/imagens/maquina-costura.jpg,3300667788990,DISPONIVEL
+Ferro de Passar Roupa,Ferro a vapor com base antiaderente e controle de temperatura,199.99,70,Eletrodomesticos,https://exemplo.com/imagens/ferro-passar.jpg,3300778899001,DISPONIVEL
+Umidificador de Ar,Umidificador ultrassonico para melhorar a qualidade do ar,299.99,25,Eletrodomesticos,https://exemplo.com/imagens/umidificador.jpg,3300889900112,DISPONIVEL
+Purificador de Ar,Purificador com filtro HEPA para eliminar partículas e odores,499.99,20,Eletrodomesticos,https://exemplo.com/imagens/purificador-ar.jpg,3300990011223,DISPONIVEL
+Balanca Digital,Balanca digital com medicao de índice de massa corporal,199.99,40,Eletrodomesticos,https://exemplo.com/imagens/balanca-digital.jpg,3300112233445,DISPONIVEL
+Secador de Roupas,Secador compacto e eficiente para todos os tipos de roupas,999.99,15,Eletrodomesticos,https://exemplo.com/imagens/secador-roupas.jpg,3300223344556,DISPONIVEL
+Chaleira Eletrica,Chaleira com aquecimento rapido e desligamento automatico,149.99,60,Eletrodomesticos,https://exemplo.com/imagens/chaleira-eletrica.jpg,3300334455667,DISPONIVEL
+Panela de Pressao Eletrica,Cozinhe refeicoes deliciosas com esta panela de pressao eletrica,399.99,25,Eletrodomesticos,https://exemplo.com/imagens/panela-pressao.jpg,3300445566778,DISPONIVEL
+Sanduicheira,Prepare sanduíches rapidos e deliciosos com esta sanduicheira,99.99,80,Eletrodomesticos,https://exemplo.com/imagens/sanduicheira.jpg,3300556677889,DISPONIVEL
+Torradeira,Torre paes com precisao e praticidade,99.99,100,Eletrodomesticos,https://exemplo.com/imagens/torradeira.jpg,3300667788990,DISPONIVEL
+Espremedor de Frutas,Espremedor eficiente para preparar sucos frescos,149.99,50,Eletrodomesticos,https://exemplo.com/imagens/espremedor.jpg,3300778899001,DISPONIVEL
+Liquidificador,Liquidificador potente para preparar diversas receitas,199.99,60,Eletrodomesticos,https://exemplo.com/imagens/liquidificador.jpg,3300889900112,DISPONIVEL
+Mixer,Prepare vitaminas e sopas com facilidade usando este mixer,99.99,70,Eletrodomesticos,https://exemplo.com/imagens/mixer.jpg,3300990011223,DISPONIVEL
+Batedeira Planetaria,Batedeira robusta para preparar massas e cremes,399.99,30,Eletrodomesticos,https://exemplo.com/imagens/batedeira-planetaria.jpg,3300112233445,DISPONIVEL
+Cafeteira Italiana,Cafeteira classica para preparar cafes com sabor autêntico,199.99,40,Eletrodomesticos,https://exemplo.com/imagens/cafeteira-italiana.jpg,3300223344556,DISPONIVEL
+Sorveteira,Prepare sorvetes caseiros com esta sorveteira pratica,299.99,20,Eletrodomesticos,https://exemplo.com/imagens/sorveteira.jpg,3300334455667,DISPONIVEL
+Desumidificador de Ar,Desumidificador eficiente para ambientes úmidos,299.99,25,Eletrodomesticos,https://exemplo.com/imagens/desumidificador.jpg,3300445566778,DISPONIVEL
+Fritadeira Air Fryer,Cozinhe alimentos de maneira saudavel com esta air fryer,399.99,50,Eletrodomesticos,https://exemplo.com/imagens/air-fryer.jpg,3300556677889,DISPONIVEL
+Grill Eletrico,Prepare grelhados deliciosos e saudaveis com este grill,199.99,60,Eletrodomesticos,https://exemplo.com/imagens/grill-eletrico.jpg,3300667788990,DISPONIVEL
+Yogurteira,Prepare iogurtes caseiros com esta yogurteira pratica,149.99,25,Eletrodomesticos,https://exemplo.com/imagens/yogurteira.jpg,3300778899001,DISPONIVEL
+Maquina de Pao,Prepare paes frescos em casa com esta maquina de pao,399.99,30,Eletrodomesticos,https://exemplo.com/imagens/maquina-pao.jpg,3300889900112,DISPONIVEL
+Robo de Cozinha,Cozinhe de forma pratica e automatizada com este robo de cozinha,1499.99,10,Eletrodomesticos,https://exemplo.com/imagens/robo-cozinha.jpg,3300990011223,DISPONIVEL
+Fogao 4 Bocas,Fogao com 4 bocas e forno embutido,1199.99,20,Eletrodomesticos,https://exemplo.com/imagens/fogao-4-bocas.jpg,4400334455667,DISPONIVEL
+Aspirador Robo,Aspirador robo inteligente com sensores de mapeamento,1399.99,15,Eletrodomesticos,https://exemplo.com/imagens/aspirador-robo.jpg,4400667788990,DISPONIVEL
+Ventilador de Mesa,Leve e compacto com ajuste de velocidade,129.99,80,Eletrodomesticos,https://exemplo.com/imagens/ventilador-mesa.jpg,4400991122334,DISPONIVEL
+Aquecedor Eletrico,Ideal para aquecer ambientes pequenos,349.99,25,Eletrodomesticos,https://exemplo.com/imagens/aquecedor-eletrico.jpg,4400112233445,DISPONIVEL
+Despertador Digital,Despertador com display digital e alarme,59.99,100,Eletrodomesticos,https://exemplo.com/imagens/despertador-digital.jpg,4400223344556,DISPONIVEL
+Panela Eletrica,Perfeita para cozinhar arroz e legumes,179.99,50,Eletrodomesticos,https://exemplo.com/imagens/panela-eletrica.jpg,4400334455667,DISPONIVEL
+Climatizador de Ar,Portatil e eficiente para resfriar ambientes,249.99,30,Eletrodomesticos,https://exemplo.com/imagens/climatizador-ar.jpg,4400445566778,DISPONIVEL
+Forno Eletrico,Compacto e potente ideal para assar e tostar,399.99,25,Eletrodomesticos,https://exemplo.com/imagens/forno-eletrico.jpg,4400556677889,DISPONIVEL
+Torradeira Automatica,Torradeira com ajuste de temperatura e timer,149.99,70,Eletrodomesticos,https://exemplo.com/imagens/torradeira-automatica.jpg,4400667788990,DISPONIVEL
+Liquidificador Portatil,Ideal para preparar sucos e vitaminas,99.99,80,Eletrodomesticos,https://exemplo.com/imagens/liquidificador-portatil.jpg,4400778899001,DISPONIVEL
+Batedeira Compacta,Compacta e eficiente para preparar massas,249.99,45,Eletrodomesticos,https://exemplo.com/imagens/batedeira-compacta.jpg,4400889900112,DISPONIVEL
+Miniforno,Miniforno eletrico para pequenas refeicoes,299.99,20,Eletrodomesticos,https://exemplo.com/imagens/miniforno.jpg,4400990011223,DISPONIVEL
+Purificador de agua,Compacto e eficiente para agua pura,499.99,30,Eletrodomesticos,https://exemplo.com/imagens/purificador-agua.jpg,4400112233445,DISPONIVEL
+Cafeteira Programavel,Prepare seu cafe na hora certa todos os dias,299.99,50,Eletrodomesticos,https://exemplo.com/imagens/cafeteira-programavel.jpg,4400223344556,DISPONIVEL
+Geladeira Portatil,Ideal para viagens e piqueniques,699.99,15,Eletrodomesticos,https://exemplo.com/imagens/geladeira-portatil.jpg,4400334455667,DISPONIVEL
+Chaleira Rapida,Aquece agua rapidamente com desligamento automatico,129.99,60,Eletrodomesticos,https://exemplo.com/imagens/chaleira-rapida.jpg,4400445566778,DISPONIVEL
+Espremedor Automatico,Prepare sucos frescos com facilidade,199.99,50,Eletrodomesticos,https://exemplo.com/imagens/espremedor-automatico.jpg,4400556677889,DISPONIVEL
+Mixer Portatil,Perfeito para preparar smoothies e sopas,89.99,90,Eletrodomesticos,https://exemplo.com/imagens/mixer-portatil.jpg,4400667788990,DISPONIVEL
+Torradeira,Perfeita para preparar torradas crocantes,99.99,100,Eletrodomesticos,https://exemplo.com/imagens/torradeira.jpg,4400778899001,DISPONIVEL
+Multiprocessador,Processa alimentos de forma pratica e rapida,299.99,30,Eletrodomesticos,https://exemplo.com/imagens/multiprocessador.jpg,4400889900112,DISPONIVEL
+Balanca Eletronica,Precisa e facil de usar ideal para dietas,59.99,80,Eletrodomesticos,https://exemplo.com/imagens/balanca-eletronica.jpg,4400990011223,DISPONIVEL
+Forno Micro-ondas,Multifuncional com descongelamento rapido,399.99,40,Eletrodomesticos,https://exemplo.com/imagens/forno-microondas.jpg,4400112233445,DISPONIVEL
+Fogao Cooktop,Elegante e eficiente para cozinhar,1199.99,10,Eletrodomesticos,https://exemplo.com/imagens/fogao-cooktop.jpg,4400223344556,DISPONIVEL
+Geladeira Side-by-Side,Alta capacidade com design moderno,2999.99,8,Eletrodomesticos,https://exemplo.com/imagens/geladeira-sidebyside.jpg,4400334455667,DISPONIVEL
+Fritadeira Air Fryer,Prepare alimentos crocantes e saudaveis,399.99,25,Eletrodomesticos,https://exemplo.com/imagens/air-fryer.jpg,4400445566778,DISPONIVEL
+Panela de Pressao Eletrica,Ideal para cozimentos rapidos e seguros,199.99,35,Eletrodomesticos,https://exemplo.com/imagens/panela-pressao.jpg,4400556677889,DISPONIVEL
+Liquidificador Turbo,Poderoso e versatil para diversas receitas,149.99,60,Eletrodomesticos,https://exemplo.com/imagens/liquidificador-turbo.jpg,4400667788990,DISPONIVEL
+Batedeira Planetaria,Perfeita para fazer bolos e massas,399.99,20,Eletrodomesticos,https://exemplo.com/imagens/batedeira-planetaria.jpg,4400778899001,DISPONIVEL
+Sorveteira Automatica,Prepare sorvetes deliciosos em casa,299.99,15,Eletrodomesticos,https://exemplo.com/imagens/sorveteira-automatica.jpg,4400889900112,DISPONIVEL
+Forno de Pizza,Ideal para assar pizzas crocantes,199.99,50,Eletrodomesticos,https://exemplo.com/imagens/forno-pizza.jpg,4400990011223,DISPONIVEL
+Tostador de Paes,Torre paes de maneira uniforme e rapida,79.99,100,Eletrodomesticos,https://exemplo.com/imagens/tostador-paes.jpg,4400112233445,DISPONIVEL
+Cafeteira Italiana,Classica e eficiente para cafe expresso,199.99,30,Eletrodomesticos,https://exemplo.com/imagens/cafeteira-italiana.jpg,4400223344556,DISPONIVEL
+Yogurteira Automatica,Prepare iogurtes caseiros com facilidade,199.99,25,Eletrodomesticos,https://exemplo.com/imagens/yogurteira-automatica.jpg,4400334455667,DISPONIVEL
+Liquidificador de Mao,Pratico e portatil para uso diario,79.99,50,Eletrodomesticos,https://exemplo.com/imagens/liquidificador-mao.jpg,4400445566778,DISPONIVEL
+Grill Sandwich,Ideal para preparar sanduíches grelhados,129.99,80,Eletrodomesticos,https://exemplo.com/imagens/grill-sandwich.jpg,4400556677889,DISPONIVEL
+Liquidificador Turbo,Poderoso e versatil para diversas receitas,149.99,60,Eletrodomesticos,https://exemplo.com/imagens/liquidificador-turbo.jpg,4411667788990,DISPONIVEL
+Batedeira Planetaria,Perfeita para fazer bolos e massas,399.99,20,Eletrodomesticos,https://exemplo.com/imagens/batedeira-planetaria.jpg,4411778899001,DISPONIVEL
+Sorveteira Automatica,Prepare sorvetes deliciosos em casa,299.99,15,Eletrodomesticos,https://exemplo.com/imagens/sorveteira-automatica.jpg,4411889900112,DISPONIVEL
+Forno de Pizza,Ideal para assar pizzas crocantes,199.99,50,Eletrodomesticos,https://exemplo.com/imagens/forno-pizza.jpg,4411990011223,DISPONIVEL
+Tostador de Paes,Torre paes de maneira uniforme e rapida,79.99,100,Eletrodomesticos,https://exemplo.com/imagens/tostador-paes.jpg,4411112233445,DISPONIVEL
+Cafeteira Italiana,Classica e eficiente para cafe expresso,199.99,30,Eletrodomesticos,https://exemplo.com/imagens/cafeteira-italiana.jpg,4411223344556,DISPONIVEL
+Yogurteira Automatica,Prepare iogurtes caseiros com facilidade,199.99,25,Eletrodomesticos,https://exemplo.com/imagens/yogurteira-automatica.jpg,4411334455667,DISPONIVEL
+Liquidificador de Mao,Pratico e portatil para uso diario,79.99,50,Eletrodomesticos,https://exemplo.com/imagens/liquidificador-mao.jpg,4411445566778,DISPONIVEL
+Grill Sandwich,Ideal para preparar sanduíches grelhados,129.99,80,Eletrodomesticos,https://exemplo.com/imagens/grill-sandwich.jpg,4411556677889,DISPONIVEL
+Secador de Cabelos,Secador potente com diversas configuracoes de calor,199.99,40,Beleza,https://exemplo.com/imagens/secador-cabelos.jpg,5511667788990,DISPONIVEL
+Chapinha Alisadora,Alisa cabelos rapidamente com tecnologia de cerâmica,129.99,60,Beleza,https://exemplo.com/imagens/chapinha-alisadora.jpg,5511778899001,DISPONIVEL
+Modelador de Cachos,Cria cachos perfeitos de forma pratica,179.99,50,Beleza,https://exemplo.com/imagens/modelador-cachos.jpg,5511889900112,DISPONIVEL
+Aparelho de Barbear Eletrico,Barbeador eletrico com diversas lâminas de corte,199.99,40,Beleza,https://exemplo.com/imagens/barbeador-eletrico.jpg,5511990011223,DISPONIVEL
+Escova Eletrica,Escova de dentes eletrica com carregador e temporizador,149.99,50,Beleza,https://exemplo.com/imagens/escova-eletrica.jpg,5511112233445,DISPONIVEL
+Sauna Facial,Sauna facial para cuidados com a pele,199.99,30,Beleza,https://exemplo.com/imagens/sauna-facial.jpg,5511223344556,DISPONIVEL
+Massajador Eletrico,Massajador portatil para alívio muscular,129.99,40,Beleza,https://exemplo.com/imagens/massajador-eletrico.jpg,5511334455667,DISPONIVEL
+Aparelho de Manicure,Kit completo de manicure e pedicure eletrico,99.99,50,Beleza,https://exemplo.com/imagens/aparelho-manicure.jpg,5511445566778,DISPONIVEL
+Secador de Unhas,Secador de esmalte de unhas com luz UV,79.99,60,Beleza,https://exemplo.com/imagens/secador-unhas.jpg,5511556677889,DISPONIVEL
+Removedor de Cravos,Removedor eletrico de cravos e impurezas faciais,119.99,45,Beleza,https://exemplo.com/imagens/removedor-cravos.jpg,5511667788990,DISPONIVEL
+Maquina de Tosa,Corta e aparar pelos de animais de estimacao,89.99,30,Beleza,https://exemplo.com/imagens/maquina-tosa.jpg,5511778899001,DISPONIVEL
+Depilador Eletrico,Depilacao rapida e eficiente com múltiplas lâminas,139.99,40,Beleza,https://exemplo.com/imagens/depilador-eletrico.jpg,5511889900112,DISPONIVEL
+Medidor de Pressao,Medidor de pressao arterial digital,199.99,35,Saúde,https://exemplo.com/imagens/medidor-pressao.jpg,5511990011223,DISPONIVEL
+Oxímetro de Pulso,Oxímetro digital para medir saturacao de oxigênio no sangue,79.99,50,Saúde,https://exemplo.com/imagens/oximetro-pulso.jpg,5511112233445,DISPONIVEL
+Termometro Infravermelho,Termometro digital com medicao rapida,99.99,70,Saúde,https://exemplo.com/imagens/termometro-infravermelho.jpg,5511223344556,DISPONIVEL
+Nebulizador,Dispositivo para inalacao de medicamentos,249.99,40,Saúde,https://exemplo.com/imagens/nebulizador.jpg,5511334455667,DISPONIVEL
+Aparelho Auditivo,Aparelho auditivo digital com ajuste de volume,999.99,15,Saúde,https://exemplo.com/imagens/aparelho-auditivo.jpg,5511445566778,DISPONIVEL
+Esteira Ergometrica,Equipamento de exercício com varias velocidades,1999.99,10,Esporte,https://exemplo.com/imagens/esteira-ergometrica.jpg,5511556677889,DISPONIVEL
+Bicicleta Ergometrica,Ideal para exercícios cardiovasculares em casa,899.99,20,Esporte,https://exemplo.com/imagens/bicicleta-ergometrica.jpg,5511667788990,DISPONIVEL
+Banco de Musculacao,Banco ajustavel para exercícios de musculacao,299.99,30,Esporte,https://exemplo.com/imagens/banco-musculacao.jpg,5511778899001,DISPONIVEL
+Kit de Halteres,Conjunto de halteres com diferentes pesos,199.99,50,Esporte,https://exemplo.com/imagens/kit-halteres.jpg,5511889900112,DISPONIVEL
+Tapete de Yoga,Tapete antiderrapante para pratica de yoga e pilates,59.99,80,Esporte,https://exemplo.com/imagens/tapete-yoga.jpg,5511990011223,DISPONIVEL
+Rolo de Espuma,Rolo para exercícios de alongamento e massagem,49.99,60,Esporte,https://exemplo.com/imagens/rolo-espuma.jpg,5511112233445,DISPONIVEL
+Corda de Pular,Corda ajustavel para exercícios cardiovasculares,19.99,100,Esporte,https://exemplo.com/imagens/corda-pular.jpg,5511223344556,DISPONIVEL
+Kit de Faixas Elasticas,Conjunto de faixas elasticas para resistência,39.99,70,Esporte,https://exemplo.com/imagens/faixas-elasticas.jpg,5511334455667,DISPONIVEL
+Garrafa de agua Esportiva,Garrafa reutilizavel e livre de BPA,29.99,100,Esporte,https://exemplo.com/imagens/garrafa-agua-esportiva.jpg,5511445566778,DISPONIVEL
+Panela Wok,Panela wok antiaderente com cabo ergonomico,79.99,50,Cozinha,https://exemplo.com/imagens/panela-wok.jpg,5511556677889,DISPONIVEL
+Espremedor de Laranjas,Espremedor manual de laranjas com design ergonomico,29.99,80,Cozinha,https://exemplo.com/imagens/espremedor-laranjas.jpg,5511667788990,DISPONIVEL
+Tabua de Corte,Tabua de corte antibacteriana com suporte para facas,39.99,100,Cozinha,https://exemplo.com/imagens/tabua-corte.jpg,5511778899001,DISPONIVEL
+Conjunto de Facas,Conjunto de facas de cozinha com suporte magnetico,99.99,30,Cozinha,https://exemplo.com/imagens/conjunto-facas.jpg,5511889900112,DISPONIVEL
+Balanca de Cozinha,Balanca digital de cozinha com precisao,19.99,60,Cozinha,https://exemplo.com/imagens/balanca-cozinha.jpg,5511990011223,DISPONIVEL
+Liquidificador,Batedeira potente para sucos e vitaminas,59.99,40,Cozinha,https://exemplo.com/imagens/liquidificador.jpg,5511112233445,DISPONIVEL
+Jogo de Panelas,Jogo de panelas antiaderentes com 5 pecas,199.99,20,Cozinha,https://exemplo.com/imagens/jogo-panelas.jpg,5511223344556,DISPONIVEL
+Copo Termico,Copo termico inox para bebidas quentes e frias,29.99,90,Cozinha,https://exemplo.com/imagens/copo-termico.jpg,5511334455667,DISPONIVEL
+Frigideira Antiaderente,Frigideira com revestimento antiaderente e cabo removível,39.99,50,Cozinha,https://exemplo.com/imagens/frigideira.jpg,5511445566778,DISPONIVEL
+Panela de Pressao,Panela de pressao com sistema de seguranca,79.99,30,Cozinha,https://exemplo.com/imagens/panela-pressao.jpg,5511556677889,DISPONIVEL
+Escorredor de Pratos,Escorredor de pratos com design compacto e moderno,29.99,80,Cozinha,https://exemplo.com/imagens/escorredor-pratos.jpg,5511667788990,DISPONIVEL
+Espatula de Silicone,Espatula de silicone resistente ao calor,19.99,100,Cozinha,https://exemplo.com/imagens/espatula-silicone.jpg,5511778899001,DISPONIVEL
+Cortador de Legumes,Cortador de legumes multifuncional,49.99,70,Cozinha,https://exemplo.com/imagens/cortador-legumes.jpg,5511889900112,DISPONIVEL
+Conjunto de Tigelas,Conjunto de tigelas de vidro com tampa,39.99,60,Cozinha,https://exemplo.com/imagens/conjunto-tigelas.jpg,5511990011223,DISPONIVEL
+Caneca Termica,Caneca termica com tampa hermetica,29.99,90,Cozinha,https://exemplo.com/imagens/caneca-termica.jpg,5511112233445,DISPONIVEL
+Faqueiro,Faqueiro de aco inoxidavel com 24 pecas,99.99,20,Cozinha,https://exemplo.com/imagens/faqueiro.jpg,5511223344556,DISPONIVEL
+Forma de Bolo,Forma de bolo antiaderente com fundo removível,29.99,80,Cozinha,https://exemplo.com/imagens/forma-bolo.jpg,5511334455667,DISPONIVEL
+Kit para Churrasco,Kit de utensílios para churrasco com bolsa,49.99,40,Cozinha,https://exemplo.com/imagens/kit-churrasco.jpg,5511445566778,DISPONIVEL
+Ralador de Queijo,Ralador de queijo manual de inox,19.99,70,Cozinha,https://exemplo.com/imagens/ralador-queijo.jpg,5511556677889,DISPONIVEL
+Pipoqueira,Pipoqueira eletrica com tampa removível,39.99,50,Cozinha,https://exemplo.com/imagens/pipoqueira.jpg,5511667788990,DISPONIVEL
+Bule de Cha,Bule de cha de vidro com infusor,29.99,30,Cozinha,https://exemplo.com/imagens/bule-cha.jpg,5511778899001,DISPONIVEL
+Faca Eletrica,Faca eletrica para cortar carnes e paes,59.99,40,Cozinha,https://exemplo.com/imagens/faca-eletrica.jpg,5511889900112,DISPONIVEL
+Conjunto de Medidores,Conjunto de medidores de aco inoxidavel,19.99,90,Cozinha,https://exemplo.com/imagens/conjunto-medidores.jpg,5511990011223,DISPONIVEL
+Torradeira,Torradeira de pao com ajuste de temperatura,29.99,50,Cozinha,https://exemplo.com/imagens/torradeira.jpg,5511112233445,DISPONIVEL
+Coqueteleira,Coqueteleira de inox para preparar drinks,19.99,60,Cozinha,https://exemplo.com/imagens/coqueteleira.jpg,5511223344556,DISPONIVEL
+Cafeteira Italiana,Cafeteira italiana de alumínio para 6 xícaras,39.99,70,Cozinha,https://exemplo.com/imagens/cafeteira-italiana.jpg,5511334455667,DISPONIVEL
+Jogo de Copos,Jogo de copos de vidro para bebidas,49.99,20,Cozinha,https://exemplo.com/imagens/jogo-copos.jpg,5511445566778,DISPONIVEL
+Descascador de Legumes,Descascador de legumes com lâmina de aco inoxidavel,19.99,80,Cozinha,https://exemplo.com/imagens/descascador-legumes.jpg,5511556677889,DISPONIVEL
+Assadeira,Assadeira antiaderente retangular,29.99,50,Cozinha,https://exemplo.com/imagens/assadeira.jpg,5511667788990,DISPONIVEL
+Manteigueira,Manteigueira de vidro com tampa,19.99,30,Cozinha,https://exemplo.com/imagens/manteigueira.jpg,5511778899001,DISPONIVEL
+Conjunto de Talheres,Conjunto de talheres de bambu com estojo,29.99,60,Cozinha,https://exemplo.com/imagens/conjunto-talheres.jpg,5511889900112,DISPONIVEL
+Fatiador de Frios,Fatiador de frios manual com lâmina ajustavel,49.99,40,Cozinha,https://exemplo.com/imagens/fatiador-frios.jpg,5511990011223,DISPONIVEL
+Batedor de Ovos,Batedor de ovos manual de inox,9.99,70,Cozinha,https://exemplo.com/imagens/batedor-ovos.jpg,5511112233445,DISPONIVEL
+Espremedor de Alho,Espremedor de alho manual de inox,14.99,90,Cozinha,https://exemplo.com/imagens/espremedor-alho.jpg,5511223344556,DISPONIVEL
+Forma de Gelo,Forma de gelo de silicone com 24 cavidades,9.99,100,Cozinha,https://exemplo.com/imagens/forma-gelo.jpg,5511334455667,DISPONIVEL
+Termometro Infravermelho,Termometro digital com leitura instantânea,99.99,50,Saúde,https://exemplo.com/imagens/termometro-infravermelho.jpg,6611556677889,DISPONIVEL
+Oxímetro de Pulso,Dispositivo para medir a saturacao de oxigênio no sangue,69.99,40,Saúde,https://exemplo.com/imagens/oximetro-pulso.jpg,6611667788990,DISPONIVEL
+Nebulizador,Dispositivo para inalacao de medicamentos,149.99,30,Saúde,https://exemplo.com/imagens/nebulizador.jpg,6611778899001,DISPONIVEL
+Aparelho de Pressao,Aparelho para medir a pressao arterial com precisao,199.99,20,Saúde,https://exemplo.com/imagens/aparelho-pressao.jpg,6611889900112,DISPONIVEL
+Balanca Digital,Balanca digital para controle de peso,79.99,60,Saúde,https://exemplo.com/imagens/balanca-digital.jpg,6611990011223,DISPONIVEL
+Medidor de Glicose,Medidor de glicose no sangue com tiras reagentes,59.99,50,Saúde,https://exemplo.com/imagens/medidor-glicose.jpg,6611112233445,DISPONIVEL
+Inalador Ultrassonico,Inalador ultrassonico portatil para uso domestico,139.99,15,Saúde,https://exemplo.com/imagens/inalador-ultrassonico.jpg,6611223344556,DISPONIVEL
+Massageador Eletrico,Massageador portatil para alívio de tensoes musculares,89.99,40,Saúde,https://exemplo.com/imagens/massageador-eletrico.jpg,6611334455667,DISPONIVEL
+Purificador de Ar,Purificador de ar com filtro HEPA,199.99,25,Saúde,https://exemplo.com/imagens/purificador-ar.jpg,6611445566778,DISPONIVEL
+Monitor Cardíaco,Monitor cardíaco com cinta peitoral,149.99,30,Saúde,https://exemplo.com/imagens/monitor-cardiaco.jpg,6611556677889,DISPONIVEL
+Escova Dental Eletrica,Escova de dentes eletrica recarregavel,49.99,80,Saúde,https://exemplo.com/imagens/escova-dental-eletrica.jpg,6611667788990,DISPONIVEL
+Cadeira de Massagem,Cadeira de massagem reclinavel com múltiplas funcoes,899.99,10,Saúde,https://exemplo.com/imagens/cadeira-massagem.jpg,6611778899001,DISPONIVEL
+Luminaria de Mesa,Luminaria de mesa com LED ajustavel,29.99,60,Casa,https://exemplo.com/imagens/luminaria-mesa.jpg,6611889900112,DISPONIVEL
+Ventilador de Torre,Ventilador de torre com controle remoto,79.99,50,Casa,https://exemplo.com/imagens/ventilador-torre.jpg,6611990011223,DISPONIVEL
+Umidificador de Ar,Umidificador de ar compacto e silencioso,59.99,40,Casa,https://exemplo.com/imagens/umidificador-ar.jpg,6611112233445,DISPONIVEL
+Purificador de agua,Purificador de agua com filtro de carvao ativado,99.99,25,Casa,https://exemplo.com/imagens/purificador-agua.jpg,6611223344556,DISPONIVEL
+Cafeteira Eletrica,Cafeteira eletrica programavel para 12 xícaras,49.99,30,Casa,https://exemplo.com/imagens/cafeteira-eletrica.jpg,6611334455667,DISPONIVEL
+Ferro de Passar Roupa,Ferro a vapor com base antiaderente,39.99,50,Casa,https://exemplo.com/imagens/ferro-passar.jpg,6611445566778,DISPONIVEL
+Aspirador de Pó,Aspirador de pó portatil e potente,89.99,40,Casa,https://exemplo.com/imagens/aspirador-po.jpg,6611556677889,DISPONIVEL
+Maquina de Lavar Roupa,Maquina de lavar roupa com diversas funcoes de lavagem,499.99,15,Casa,https://exemplo.com/imagens/maquina-lavar-roupa.jpg,6611667788990,DISPONIVEL
+Fogao 4 Bocas,Fogao com 4 bocas e forno,299.99,20,Casa,https://exemplo.com/imagens/fogao-4-bocas.jpg,6611778899001,DISPONIVEL
+Geladeira Duplex,Geladeira duplex com freezer,799.99,10,Casa,https://exemplo.com/imagens/geladeira-duplex.jpg,6611889900112,DISPONIVEL
+Micro-ondas,Micro-ondas com funcao grill,129.99,30,Casa,https://exemplo.com/imagens/micro-ondas.jpg,6611990011223,DISPONIVEL
+Processador de Alimentos,Processador de alimentos multifuncional,149.99,25,Casa,https://exemplo.com/imagens/processador-alimentos.jpg,6611112233445,DISPONIVEL
+Grill Eletrico,Grill eletrico para grelhar carnes e legumes,69.99,50,Casa,https://exemplo.com/imagens/grill-eletrico.jpg,6611223344556,DISPONIVEL
+Sanduicheira Eletrica,Sanduicheira eletrica com placas antiaderentes,29.99,60,Casa,https://exemplo.com/imagens/sanduicheira.jpg,6611334455667,DISPONIVEL
+Torradeira,Torradeira com ajuste de temperatura e timer,29.99,80,Casa,https://exemplo.com/imagens/torradeira.jpg,6611445566778,DISPONIVEL
+Purificador de Ar Compacto,Purificador de ar compacto e portatil,99.99,40,Casa,https://exemplo.com/imagens/purificador-ar-compacto.jpg,6611556677889,DISPONIVEL
+Batedeira Eletrica,Batedeira eletrica portatil para massas e bolos,59.99,50,Casa,https://exemplo.com/imagens/batedeira-eletrica.jpg,6611667788990,DISPONIVEL

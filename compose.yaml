@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    container_name: produtoDB
+    environment:
+      - 'POSTGRES_DB=produtoDB'
+      - 'POSTGRES_PASSWORD=password'
+      - 'POSTGRES_USER=sa'
+    ports:
+      - '5432:5432'
+
