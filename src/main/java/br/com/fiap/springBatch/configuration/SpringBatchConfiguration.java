@@ -29,7 +29,7 @@ public class SpringBatchConfiguration {
 
         @Bean
         public Job processarProdutos(JobRepository jobRepository, Step stepProdutos) {
-                return new JobBuilder("processarProduto", jobRepository)
+                return new JobBuilder("processarProdutos", jobRepository)
                                 .incrementer(new RunIdIncrementer())
                                 .start(stepProdutos)
                                 .build();
@@ -40,26 +40,26 @@ public class SpringBatchConfiguration {
                         PlatformTransactionManager platformTransactionManager,
                         ItemReader<Produto> itemReaderProdutos,
                         ItemWriter<Produto> itemWriterProdutos
-        // ,ItemProcessor<Produto, Produto> itemProcessorProdutos
         ) {
                 return new StepBuilder("stepProdutos", jobRepository)
                                 .<Produto, Produto>chunk(24, platformTransactionManager)
                                 .reader(itemReaderProdutos)
-                                // .processor(itemProcessorProdutos) não foi necessario implementar
                                 .writer(itemWriterProdutos)
                                 .build();
         }
 
         @Bean
-        public ItemReader<Produto> itemReaderProdutos() {
+        public ItemReader<Produto> itemReaderProdutos() throws Exception {
                 BeanWrapperFieldSetMapper<Produto> fieldSetMapper = new BeanWrapperFieldSetMapper<Produto>();
                 fieldSetMapper.setTargetType(Produto.class);
+                fieldSetMapper.afterPropertiesSet();
 
                 return new FlatFileItemReaderBuilder<Produto>()
                                 .name("itemReaderProdutos")
                                 .resource(new ClassPathResource("produtos.csv"))
                                 .linesToSkip(1)
                                 .delimited()
+                                .delimiter(",")
                                 .names("nome", "descricao", "preco", "quantidadeestoque", "categoria", "imagemurl",
                                                 "codigobarras", "status")
                                 .fieldSetMapper(fieldSetMapper)
@@ -80,10 +80,4 @@ public class SpringBatchConfiguration {
         public ItemWriter<Produto> loggingItemWriter() { 
                 return items -> items.forEach(item -> System.out.println("Writing item: " + item)); 
         }
-
-        // Nao foi necessario implementar para este escopo de projeto
-        // public ItemProcessor<Produto, Produto> itemProcessorProdutos() {
-        // return null;
-        // }
-
 }
