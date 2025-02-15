@@ -2,6 +2,7 @@ package br.com.fiap.springBatch.controller;
 
 import java.io.IOException;
 
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -28,7 +29,8 @@ public class CargaController {
 	
     //@Value("${carga.input-path}")
     //private String diretorio;
-    
+
+	@Operation(description = "Faz a carga do Arquivo")
     @PostMapping("/importar")
 	public ResponseEntity<Void> handleFileUpload(@RequestParam("file") MultipartFile file) {
 

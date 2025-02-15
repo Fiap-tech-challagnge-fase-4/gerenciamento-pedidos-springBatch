@@ -1,5 +1,6 @@
 package br.com.fiap.springBatch.gateway.springbatch;
 
+import br.com.fiap.springBatch.exception.ErroAoProcessarJobException;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParameters;
 import org.springframework.batch.core.launch.JobLauncher;
@@ -25,14 +26,15 @@ public class SpringBatchGateway implements JobGateway{
 
 
 	@Override
-	public void execute(Carga carga) {
+	public void execute(Carga carga) throws ErroAoProcessarJobException {
 		try {
     		JobParameters jobParameters = new JobParameters();
     		jobLauncher.run(job, jobParameters);
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
-			//throw new ErroAoProcessarJobException();
+			throw new ErroAoProcessarJobException("Erro ao processar o job: " + e.getMessage());
+
 		}
 
 	}
