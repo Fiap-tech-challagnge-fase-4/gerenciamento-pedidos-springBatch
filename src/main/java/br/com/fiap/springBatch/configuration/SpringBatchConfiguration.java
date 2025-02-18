@@ -71,7 +71,7 @@ public class SpringBatchConfiguration {
                 return new JdbcBatchItemWriterBuilder<Produto>()
                                 .itemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<>())
                                 .dataSource(datasource)
-                                .sql("INSERT INTO Produto (nome, descricao, preco, quantidadeestoque, categoria, imagemurl, codigobarras, status)"
+                                .sql("INSERT INTO Produto (nome, descricao, preco, quantidade_estoque, categoria, imagem_url, codigo_barras, status)"
                                                 + " VALUES (:nome, :descricao, :preco, :quantidadeestoque, :categoria, :imagemurl, :codigobarras, :status)")
                                 .build();
         }
