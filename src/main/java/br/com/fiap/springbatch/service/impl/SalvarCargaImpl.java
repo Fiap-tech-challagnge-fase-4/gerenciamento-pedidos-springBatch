@@ -1,10 +1,10 @@
-package br.com.fiap.springBatch.service.impl;
+package br.com.fiap.springbatch.service.impl;
 
 import org.springframework.stereotype.Service;
 
-import br.com.fiap.springBatch.gateway.JobGateway;
-import br.com.fiap.springBatch.model.Carga;
-import br.com.fiap.springBatch.service.SalvarCarga;
+import br.com.fiap.springbatch.gateway.JobGateway;
+import br.com.fiap.springbatch.model.Carga;
+import br.com.fiap.springbatch.service.SalvarCarga;
 import lombok.AllArgsConstructor;
 
 @Service

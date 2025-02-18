@@ -1,22 +1,21 @@
 package impl;
 
-import br.com.fiap.springBatch.model.Carga;
-import br.com.fiap.springBatch.gateway.JobGateway;
-import br.com.fiap.springBatch.service.SalvarCarga;
-import br.com.fiap.springBatch.service.impl.SalvarCargaImpl;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.times;
+import br.com.fiap.springbatch.gateway.JobGateway;
+import br.com.fiap.springbatch.model.Carga;
+import br.com.fiap.springbatch.service.impl.SalvarCargaImpl;
 
 
 @ExtendWith(MockitoExtension.class)
-public class SalvarCargaImplTest {
+class SalvarCargaImplTest {
 
     @Mock
     private JobGateway jobGateway;
@@ -25,7 +24,7 @@ public class SalvarCargaImplTest {
     private SalvarCargaImpl salvarCargaImpl;
 
     @Test
-    public void testSalvarCarga() {
+    void testSalvarCarga() {
         // Arrange
         Carga carga = new Carga("produtos.csv", new byte[10]);
 

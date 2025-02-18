@@ -1,19 +1,21 @@
-package br.com.fiap.springBatch.gateway.springbatch;
+package br.com.fiap.springbatch.gateway.springbatch;
 
-import br.com.fiap.springBatch.exception.ErroAoProcessarJobException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParameters;
 import org.springframework.batch.core.launch.JobLauncher;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import br.com.fiap.springBatch.gateway.JobGateway;
-import br.com.fiap.springBatch.model.Carga;
+import br.com.fiap.springbatch.exception.ErroAoProcessarJobException;
+import br.com.fiap.springbatch.gateway.JobGateway;
+import br.com.fiap.springbatch.model.Carga;
 
 @Component
 public class SpringBatchGateway implements JobGateway{
-
+	
+	private static final Logger logger = LoggerFactory.getLogger(SpringBatchGateway.class);
 	private JobLauncher jobLauncher;
 	private Job job;
 
@@ -32,11 +34,8 @@ public class SpringBatchGateway implements JobGateway{
     		jobLauncher.run(job, jobParameters);
 
 		} catch (Exception e) {
-			System.out.println(e.getMessage());
-			throw new ErroAoProcessarJobException("Erro ao processar o job: " + e.getMessage());
-
+			logger.error("Erro ao executar o job. Carga: {}, Job: {}, Erro: {}", carga, job.getName(), e.getMessage(), e);
 		}
-
 	}
 
 }

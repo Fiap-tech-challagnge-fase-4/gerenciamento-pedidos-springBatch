@@ -1,4 +1,4 @@
-package br.com.fiap.springBatch.exception;
+package br.com.fiap.springbatch.exception;
 
 public class ErroAoProcessarJobException extends RuntimeException {
     // Construtor com mensagem personalizada

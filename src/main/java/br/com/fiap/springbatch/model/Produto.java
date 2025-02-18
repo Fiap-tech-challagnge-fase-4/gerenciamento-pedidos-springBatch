@@ -1,9 +1,11 @@
-package br.com.fiap.springBatch.model;
+package br.com.fiap.springbatch.model;
 import java.math.BigDecimal;
 
 import lombok.Data;
+import lombok.ToString;
 
 @Data
+@ToString
 public class Produto {
     private String nome;
     private String descricao;
