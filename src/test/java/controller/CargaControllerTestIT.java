@@ -1,10 +1,10 @@
 package controller;
 
-import br.com.fiap.springBatch.SpringBatchApplication;
-import br.com.fiap.springBatch.model.Carga;
-import br.com.fiap.springBatch.service.SalvarCarga;
-import io.qameta.allure.restassured.AllureRestAssured;
-import io.restassured.RestAssured;
+import static io.restassured.RestAssured.given;
+
+import java.io.File;
+import java.io.FileInputStream;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,17 +17,15 @@ import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
+import br.com.fiap.springbatch.SpringBatchApplication;
+import br.com.fiap.springbatch.service.SalvarCarga;
+import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.RestAssured;
 
 @AutoConfigureTestDatabase
 @ActiveProfiles("test")
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT,classes = SpringBatchApplication.class)
-public class CargaControllerTestIT {
+class CargaControllerTestIT {
 
     @LocalServerPort
     private int port;
@@ -44,7 +42,7 @@ public class CargaControllerTestIT {
     @Test
     void deveCarregarArquivoCorretamente() throws Exception {
         // Arrange
-        File arquivo = new File("src/test/resources/teste_produtos.csv"); // ou crie um arquivo temporário para os testes
+        File arquivo = new File("src/test/resources/teste_produtos.csv");
         MultipartFile multipartFile = new MockMultipartFile(
                 "file", // nome do parâmetro no método controller
                 "produtos.csv", // nome do arquivo
