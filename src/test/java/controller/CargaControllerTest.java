@@ -1,8 +1,13 @@
 package controller;
 
-import br.com.fiap.springBatch.controller.CargaController;
-import br.com.fiap.springBatch.model.Carga;
-import br.com.fiap.springBatch.service.SalvarCarga;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+import java.io.IOException;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -12,12 +17,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
+import br.com.fiap.springbatch.controller.CargaController;
+import br.com.fiap.springbatch.model.Carga;
+import br.com.fiap.springbatch.service.SalvarCarga;
 
-import static org.mockito.Mockito.*;
-import static org.junit.jupiter.api.Assertions.*;
-
-public class CargaControllerTest {
+class CargaControllerTest {
 
     @Mock
     private SalvarCarga salvarCarga;
@@ -36,7 +40,7 @@ public class CargaControllerTest {
     }
 
     @Test
-    public void testHandleFileUpload_Success() throws Exception {
+    void testHandleFileUpload_Success() throws Exception {
 
         byte[] fileContent = "Conteúdo do arquivo".getBytes();
         when(file.getBytes()).thenReturn(fileContent);
@@ -53,7 +57,7 @@ public class CargaControllerTest {
     }
 
     @Test
-    public void testHandleFileUpload_IOException() throws Exception {
+    void testHandleFileUpload_IOException() throws Exception {
 
         when(file.getBytes()).thenThrow(new IOException("Erro ao ler o arquivo"));
 

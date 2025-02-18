@@ -1,21 +1,18 @@
-package br.com.fiap.springBatch.controller;
+package br.com.fiap.springbatch.controller;
 
 import java.io.IOException;
 
-import io.swagger.v3.oas.annotations.Operation;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import br.com.fiap.springBatch.model.Carga;
-import br.com.fiap.springBatch.service.SalvarCarga;
-import lombok.AllArgsConstructor;
+import br.com.fiap.springbatch.model.Carga;
+import br.com.fiap.springbatch.service.SalvarCarga;
+import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
 @RequestMapping("/api/carga")
@@ -26,9 +23,6 @@ public class CargaController {
     public CargaController(SalvarCarga salvarCarga) {
         this.salvarCarga = salvarCarga;
     }
-	
-    //@Value("${carga.input-path}")
-    //private String diretorio;
 
 	@Operation(description = "Faz a carga do Arquivo")
     @PostMapping("/importar")
