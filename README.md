@@ -16,9 +16,17 @@ Este projeto faz parte do *Tech Challenge - Fase 4*, ele implementa a funcionali
    ```bash
    docker login
     ```
-2. **Execute o seguinte comando para subir os serviços:**
+2. **Crie uma rede Docker, caso não tenha criado:**
      ```bash
-    docker compose up -d
+    docker network create app_network
+    ```
+3. **Execute o seguinte comando para construir a imagem:**
+     ```bash
+    docker build -t springbatch-app .
+    ```
+4. **Execute o seguinte comando para executar o container:**
+     ```bash
+    docker run -d --name springbatch-app --network app_network -p 8088:8088 springbatch-app
     ```
 ## Instruções para Execução dos Testes
 
