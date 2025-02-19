@@ -12,6 +12,6 @@ WORKDIR /app
 
 COPY --from=build /app/target/*.jar springBatchApp.jar
 
-EXPOSE 8081
+EXPOSE 8088
 
 CMD ["java", "-jar", "springBatchApp.jar"]
